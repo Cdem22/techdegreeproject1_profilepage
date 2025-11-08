@@ -88,6 +88,14 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+.tag-portfolio {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -99,7 +107,12 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #DD9933;
+}
+.portfolio-image {
+  max-width: 460px;
+  height: auto;
+  justify-content: center;
 }
 
 ul.skills {
@@ -107,17 +120,26 @@ ul.skills {
   text-align: center;
 }
 
+.portfolio-skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #b4b4b4;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #78B4A9;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #004B62;
 }
 
 footer {
