@@ -85,8 +85,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #004b62;
+  color: #ffedd0;
 }
 .tag-portfolio {
   background-color: #efefef;
@@ -110,9 +110,10 @@ header .profile-image:hover {
   border-color: #DD9933;
 }
 .portfolio-image {
-  max-width: 460px;
+  max-width: 90%;
   height: auto;
   justify-content: center;
+  margin: 0% 5%;
 }
 
 ul.skills {
@@ -198,6 +199,7 @@ a.social:hover {
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
+      flex-wrap: wrap;
       margin: 0 auto;
   }
 
