@@ -71,10 +71,11 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
+  border: 3px solid #DD9933;
 }
 .tag {
   background-color: #efefef;
@@ -109,6 +110,34 @@ header .profile-image:hover {
 .card:hover {
   border-color: #DD9933;
 }
+.hobbies-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 800px;
+  border-radius: 10px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.figure {
+    float: right;
+    width: 50%;
+}
+.hobbies-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+} 
+.image-caption {
+  font-size: .8rem;
+  text-align: center;
+}
+
+
+
 .portfolio-image {
   max-width: 90%;
   height: auto;
